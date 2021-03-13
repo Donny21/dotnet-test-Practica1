@@ -24,9 +24,9 @@ namespace Practica2
     {
         public MainWindow()
         {
-            InitializeComponent();
+            
         }
-
+        
         public void VentanaUsuarios(object sender, RoutedEventArgs e){
             UsuariosView VentanaUsuarios = new UsuariosView();
             VentanaUsuarios.ShowDialog();
